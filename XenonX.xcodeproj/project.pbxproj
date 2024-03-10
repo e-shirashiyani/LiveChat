@@ -15,6 +15,11 @@
 		B81ECF212B9DBE840040E996 /* XenonXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81ECF202B9DBE840040E996 /* XenonXTests.swift */; };
 		B81ECF2B2B9DBE840040E996 /* XenonXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81ECF2A2B9DBE840040E996 /* XenonXUITests.swift */; };
 		B81ECF2D2B9DBE840040E996 /* XenonXUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81ECF2C2B9DBE840040E996 /* XenonXUITestsLaunchTests.swift */; };
+		B81ECF3E2B9DD2760040E996 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81ECF3D2B9DD2760040E996 /* ViewModel.swift */; };
+		B81ECF442B9DD2AA0040E996 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81ECF432B9DD2AA0040E996 /* MyView.swift */; };
+		B81ECF462B9DD3440040E996 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81ECF452B9DD3440040E996 /* DataFetcher.swift */; };
+		B81ECF482B9DD3500040E996 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81ECF472B9DD3500040E996 /* NetworkDataFetcher.swift */; };
+		B81ECF4A2B9DD3560040E996 /* DatabaseDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81ECF492B9DD3560040E996 /* DatabaseDataFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		B81ECF262B9DBE840040E996 /* XenonXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XenonXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81ECF2A2B9DBE840040E996 /* XenonXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XenonXUITests.swift; sourceTree = "<group>"; };
 		B81ECF2C2B9DBE840040E996 /* XenonXUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XenonXUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B81ECF3D2B9DD2760040E996 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B81ECF432B9DD2AA0040E996 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		B81ECF452B9DD3440040E996 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		B81ECF472B9DD3500040E996 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		B81ECF492B9DD3560040E996 /* DatabaseDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseDataFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				B81ECF112B9DBE820040E996 /* Item.swift */,
+				B81ECF452B9DD3440040E996 /* DataFetcher.swift */,
+				B81ECF472B9DD3500040E996 /* NetworkDataFetcher.swift */,
+				B81ECF492B9DD3560040E996 /* DatabaseDataFetcher.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -141,6 +154,7 @@
 		B81ECF3A2B9DBE960040E996 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				B81ECF3D2B9DD2760040E996 /* ViewModel.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -149,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				B81ECF0F2B9DBE820040E996 /* ContentView.swift */,
+				B81ECF432B9DD2AA0040E996 /* MyView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -292,8 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81ECF482B9DD3500040E996 /* NetworkDataFetcher.swift in Sources */,
 				B81ECF102B9DBE820040E996 /* ContentView.swift in Sources */,
 				B81ECF122B9DBE820040E996 /* Item.swift in Sources */,
+				B81ECF442B9DD2AA0040E996 /* MyView.swift in Sources */,
+				B81ECF4A2B9DD3560040E996 /* DatabaseDataFetcher.swift in Sources */,
+				B81ECF462B9DD3440040E996 /* DataFetcher.swift in Sources */,
+				B81ECF3E2B9DD2760040E996 /* ViewModel.swift in Sources */,
 				B81ECF0E2B9DBE820040E996 /* XenonXApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
