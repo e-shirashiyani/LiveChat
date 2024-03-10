@@ -96,10 +96,10 @@
 		B81ECF0C2B9DBE820040E996 /* XenonX */ = {
 			isa = PBXGroup;
 			children = (
-				B81ECF0D2B9DBE820040E996 /* XenonXApp.swift */,
-				B81ECF0F2B9DBE820040E996 /* ContentView.swift */,
-				B81ECF112B9DBE820040E996 /* Item.swift */,
-				B81ECF132B9DBE840040E996 /* Assets.xcassets */,
+				B81ECF3C2B9DBEAA0040E996 /* Resource */,
+				B81ECF3B2B9DBE9B0040E996 /* Presentation */,
+				B81ECF3A2B9DBE960040E996 /* Domain */,
+				B81ECF392B9DBE920040E996 /* Data */,
 				B81ECF152B9DBE840040E996 /* Preview Content */,
 			);
 			path = XenonX;
@@ -128,6 +128,38 @@
 				B81ECF2C2B9DBE840040E996 /* XenonXUITestsLaunchTests.swift */,
 			);
 			path = XenonXUITests;
+			sourceTree = "<group>";
+		};
+		B81ECF392B9DBE920040E996 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B81ECF112B9DBE820040E996 /* Item.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B81ECF3A2B9DBE960040E996 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B81ECF3B2B9DBE9B0040E996 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B81ECF0F2B9DBE820040E996 /* ContentView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B81ECF3C2B9DBEAA0040E996 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B81ECF0D2B9DBE820040E996 /* XenonXApp.swift */,
+				B81ECF132B9DBE840040E996 /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
